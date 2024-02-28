@@ -1,12 +1,11 @@
-package com.example.newsapp.Api
+package com.example.newsapp.api
 
 import android.util.Log
-import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
+
 // the aim of api manager to return webservice to access on it
 //Api manager :responsbile to make object from webservice to access on it
 // using retrofit

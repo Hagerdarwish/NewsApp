@@ -1,6 +1,5 @@
-package com.example.newsapp.Api
+package com.example.newsapp.api
 
-import android.telecom.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 

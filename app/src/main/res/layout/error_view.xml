@@ -6,6 +6,7 @@
     android:visibility="gone"
     xmlns:tool="http://schemas.android.com/tools">
     <TextView
+        android:id="@+id/errorMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tool:text="something it went to wrong try again"
@@ -13,6 +14,7 @@
         android:gravity="center"
         />
     <Button
+        android:id="@+id/btn_error"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/try_again"
